@@ -1,0 +1,721 @@
+[
+    {
+        "items": [
+            {
+                "items": [
+                    {
+                        "items": [
+                            {
+                                "name": "headerSize",
+                                "type": "select",
+                                "default": "",
+                                "label": "Размер",
+                                "placeholder": "",
+                                "values": {
+                                    "20": "20",
+                                    "26": "26",
+                                    "28": "28",
+                                    "36": "36",
+                                    "48": "48",
+                                    "52": "52",
+                                    "64": "64",
+                                    "72": "72",
+                                    "82": "82",
+                                    "": "auto"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/"
+                            },
+                            {
+                                "name": "text",
+                                "type": "text",
+                                "default": "Заголовок",
+                                "label": "",
+                                "placeholder": "",
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/"
+                            },
+                            {
+                                "name": "replaceVariables",
+                                "type": "checkbox",
+                                "default": "",
+                                "label": "Заменять переменные пользователя",
+                                "placeholder": "",
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/"
+                            },
+                            {
+                                "name": "textTransform",
+                                "type": "select",
+                                "default": "Вид текста",
+                                "label": "",
+                                "placeholder": "",
+                                "values": {
+                                    "": "нет",
+                                    "uppercase": "все заглавные буквы"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/"
+                            },
+                            {
+                                "name": "tagName",
+                                "type": "select",
+                                "default": "",
+                                "label": "Тэг",
+                                "placeholder": "",
+                                "values": {
+                                    "": "auto",
+                                    "h1": "H1",
+                                    "h2": "H2",
+                                    "h3": "H3",
+                                    "h4": "H4",
+                                    "h5": "H5",
+                                    "h6": "H6"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/"
+                            },
+                            {
+                                "name": "hAlign",
+                                "type": "button-group",
+                                "default": null,
+                                "label": "Выравнивание",
+                                "placeholder": null,
+                                "values": {
+                                    "": "Авто",
+                                    "text-left": "Слева",
+                                    "text-center": "По центру",
+                                    "text-right": "Справа",
+                                    "text-justify": "По ширине"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/hAlign"
+                            },
+                            {
+                                "name": "marginTop",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ сверху",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/marginTop"
+                            },
+                            {
+                                "name": "marginBottom",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ снизу",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/marginBottom"
+                            },
+                            {
+                                "name": "textColor",
+                                "type": "color",
+                                "default": null,
+                                "label": "Цвет текста",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/textColor"
+                            },
+                            {
+                                "name": "lineHeight",
+                                "type": "size",
+                                "default": null,
+                                "label": "Высота строки",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/lineHeight"
+                            },
+                            {
+                                "name": "elementCssClass",
+                                "type": "css-class",
+                                "default": null,
+                                "label": "CSS класс элемента",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/header1/elementCssClass"
+                            }
+                        ],
+                        "type": "accordion",
+                        "title": "",
+                        "description": null
+                    },
+                    {
+                        "items": [
+                            {
+                                "name": "hAlign",
+                                "type": "button-group",
+                                "default": null,
+                                "label": "Выравнивание",
+                                "placeholder": null,
+                                "values": {
+                                    "": "Авто",
+                                    "text-left": "Слева",
+                                    "text-center": "По центру",
+                                    "text-right": "Справа",
+                                    "text-justify": "По ширине"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/hAlign"
+                            },
+                            {
+                                "name": "marginTop",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ сверху",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/marginTop"
+                            },
+                            {
+                                "name": "marginBottom",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ снизу",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/marginBottom"
+                            },
+                            {
+                                "name": "textColor",
+                                "type": "color",
+                                "default": null,
+                                "label": "Цвет текста",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/textColor"
+                            },
+                            {
+                                "name": "lineHeight",
+                                "type": "size",
+                                "default": null,
+                                "label": "Высота строки",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/lineHeight"
+                            },
+                            {
+                                "name": "elementCssClass",
+                                "type": "css-class",
+                                "default": null,
+                                "label": "CSS класс элемента",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/field50821/elementCssClass"
+                            }
+                        ],
+                        "type": "accordion",
+                        "title": "",
+                        "description": null
+                    },
+                    {
+                        "items": [
+                            {
+                                "name": "hAlign",
+                                "type": "button-group",
+                                "default": null,
+                                "label": "Выравнивание",
+                                "placeholder": null,
+                                "values": {
+                                    "": "Авто",
+                                    "text-left": "Слева",
+                                    "text-center": "По центру",
+                                    "text-right": "Справа",
+                                    "text-justify": "По ширине"
+                                },
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/hAlign"
+                            },
+                            {
+                                "name": "marginTop",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ сверху",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/marginTop"
+                            },
+                            {
+                                "name": "marginBottom",
+                                "type": "size",
+                                "default": null,
+                                "label": "Отступ снизу",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/marginBottom"
+                            },
+                            {
+                                "name": "textColor",
+                                "type": "color",
+                                "default": null,
+                                "label": "Цвет текста",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/textColor"
+                            },
+                            {
+                                "name": "lineHeight",
+                                "type": "size",
+                                "default": null,
+                                "label": "Высота строки",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/lineHeight"
+                            },
+                            {
+                                "name": "elementCssClass",
+                                "type": "css-class",
+                                "default": null,
+                                "label": "CSS класс элемента",
+                                "placeholder": null,
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "items/parts/text1/elementCssClass"
+                            }
+                        ],
+                        "type": "accordion",
+                        "title": "",
+                        "description": null
+                    }
+                ],
+                "type": "group",
+                "title": null
+            }
+        ],
+        "type": "tab",
+        "title": "Контент",
+        "description": null
+    },
+    {
+        "items": [
+            {
+                "items": [
+                    {
+                        "name": "blockFont",
+                        "type": "select",
+                        "default": null,
+                        "label": "Шрифт текста",
+                        "placeholder": "",
+                        "values": {
+                            "": "По умолчанию",
+                            "IBM Plex Sans": "IBM Plex Sans",
+                            "IBM Plex Serif": "IBM Plex Serif",
+                            "Lora": "Lora",
+                            "Merriweather": "Merriweather",
+                            "Montserrat": "Montserrat",
+                            "Noto Sans": "Noto Sans",
+                            "Noto Serif": "Noto Serif",
+                            "Nunito": "Nunito",
+                            "Open Sans": "Open Sans",
+                            "Open Sans Condensed": "Open Sans Condensed",
+                            "Oswald": "Oswald",
+                            "Playfair Display": "Playfair Display",
+                            "PT Sans": "PT Sans",
+                            "PT Serif": "PT Serif",
+                            "Raleway": "Raleway",
+                            "Roboto": "Roboto",
+                            "Roboto Condensed": "Roboto Condensed",
+                            "Roboto Mono": "Roboto Mono",
+                            "Roboto Slab": "Roboto Slab",
+                            "Rubik": "Rubik",
+                            "Source Sans Pro": "Source Sans Pro",
+                            "Source Code Pro": "Source Code Pro",
+                            "Ubuntu": "Ubuntu"
+                        },
+                        "hidden": false,
+                        "enabled": true,
+                        "deprecated": false,
+                        "description": "",
+                        "path": "blockFont"
+                    },
+                    {
+                        "name": "textAlign",
+                        "type": "button-group",
+                        "default": "text-left",
+                        "label": "Выравнивание текста",
+                        "placeholder": "",
+                        "values": {
+                            "": "Авто",
+                            "text-left": "Слева",
+                            "text-center": "По центру",
+                            "text-right": "Справа",
+                            "text-justify": "По ширине"
+                        },
+                        "hidden": false,
+                        "enabled": true,
+                        "deprecated": false,
+                        "description": "",
+                        "path": "textAlign"
+                    },
+                    {
+                        "items": [
+                            {
+                                "items": [
+                                    {
+                                        "name": "blockForegroundColor",
+                                        "type": "color",
+                                        "default": "",
+                                        "label": "Цвет текста блока",
+                                        "placeholder": "",
+                                        "values": null,
+                                        "hidden": false,
+                                        "enabled": true,
+                                        "deprecated": false,
+                                        "description": "",
+                                        "path": "blockForegroundColor"
+                                    }
+                                ],
+                                "type": "column",
+                                "size": null
+                            },
+                            {
+                                "items": [
+                                    {
+                                        "name": "blockBackgroundColor",
+                                        "type": "color",
+                                        "default": "",
+                                        "label": "Цвет фона блока",
+                                        "placeholder": "",
+                                        "values": null,
+                                        "hidden": false,
+                                        "enabled": true,
+                                        "deprecated": false,
+                                        "description": "",
+                                        "path": "blockBackgroundColor"
+                                    }
+                                ],
+                                "type": "column",
+                                "size": null
+                            },
+                            {
+                                "items": [
+                                    {
+                                        "name": "blockLinkColor",
+                                        "type": "color",
+                                        "default": "",
+                                        "label": "Цвет ссылок блока",
+                                        "placeholder": "",
+                                        "values": null,
+                                        "hidden": false,
+                                        "enabled": true,
+                                        "deprecated": false,
+                                        "description": "",
+                                        "path": "blockLinkColor"
+                                    }
+                                ],
+                                "type": "column",
+                                "size": null
+                            }
+                        ],
+                        "type": "row"
+                    }
+                ],
+                "type": "accordion",
+                "title": "Общее оформление",
+                "description": null
+            },
+            {
+                "items": [
+                    {
+                        "name": "animationOrder",
+                        "type": "select",
+                        "default": "in-turn",
+                        "label": "Порядок анимации элементов",
+                        "placeholder": "",
+                        "values": {
+                            "in-turn": "По очереди сверху-вниз",
+                            "at-once": "Все одновременно"
+                        },
+                        "hidden": false,
+                        "enabled": true,
+                        "deprecated": false,
+                        "description": "",
+                        "path": "animationOrder"
+                    },
+                    {
+                        "items": [],
+                        "type": "group"
+                    }
+                ],
+                "type": "accordion",
+                "title": "Поведение блока",
+                "description": null
+            },
+            {
+                "items": [],
+                "type": "accordion",
+                "title": "Подложка",
+                "description": null
+            },
+            {
+                "items": [],
+                "type": "accordion",
+                "title": "Видимость контейнера",
+                "description": null
+            },
+            {
+                "items": [
+                    {
+                        "type": "rheostat",
+                        "lines": [
+                            {
+                                "offsetName": "viewBlockLeftOffset",
+                                "widthName": "viewBlockWidth"
+                            }
+                        ],
+                        "data": [
+                            {
+                                "name": "viewBlockLeftOffset",
+                                "type": "units",
+                                "default": 2,
+                                "label": "Отступ слева",
+                                "placeholder": "",
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "viewBlockLeftOffset"
+                            },
+                            {
+                                "name": "viewBlockWidth",
+                                "type": "units",
+                                "default": 8,
+                                "label": "Ширина блока",
+                                "placeholder": "",
+                                "values": null,
+                                "hidden": false,
+                                "enabled": true,
+                                "deprecated": false,
+                                "description": "",
+                                "path": "viewBlockWidth"
+                            }
+                        ]
+                    },
+                    {
+                        "items": [
+                            {
+                                "items": [
+                                    {
+                                        "name": "blockPaddingTop",
+                                        "type": "select",
+                                        "default": 0.5,
+                                        "label": "Отступ сверху",
+                                        "placeholder": "",
+                                        "values": {
+                                            "0": "0 line (0px)",
+                                            "1": "1 line (30px)",
+                                            "2": "2 line (60px)",
+                                            "3": "3 line (90px)",
+                                            "4": "4 line (120px)",
+                                            "5": "5 line (150px)",
+                                            "6": "6 line (180px)",
+                                            "7": "7 line (210px)",
+                                            "8": "8 line (240px)",
+                                            "9": "9 line (270px)",
+                                            "0.4": "0.4 line (12px)",
+                                            "0.5": "0.5 line (15px)",
+                                            "0.8": "0.8 line (24px)",
+                                            "1.2": "1.2 line (36px)",
+                                            "1.5": "1.5 line (45px)",
+                                            "2.5": "2.5 line (75px)",
+                                            "3.5": "3.5 line (105px)",
+                                            "4.5": "4.5 line (135px)",
+                                            "5.5": "5.5 line (165px)",
+                                            "6.5": "6.5 line (195px)",
+                                            "7.5": "7.5 line (225px)",
+                                            "8.5": "8.5 line (255px)",
+                                            "9.5": "9.5 line (285px)"
+                                        },
+                                        "hidden": false,
+                                        "enabled": true,
+                                        "deprecated": false,
+                                        "description": "",
+                                        "path": "blockPaddingTop"
+                                    }
+                                ],
+                                "type": "column",
+                                "size": 4
+                            },
+                            {
+                                "items": [
+                                    {
+                                        "name": "blockPaddingBottom",
+                                        "type": "select",
+                                        "default": 0.5,
+                                        "label": "Отступ снизу",
+                                        "placeholder": "",
+                                        "values": {
+                                            "0": "0 line (0px)",
+                                            "1": "1 line (30px)",
+                                            "2": "2 line (60px)",
+                                            "3": "3 line (90px)",
+                                            "4": "4 line (120px)",
+                                            "5": "5 line (150px)",
+                                            "6": "6 line (180px)",
+                                            "7": "7 line (210px)",
+                                            "8": "8 line (240px)",
+                                            "9": "9 line (270px)",
+                                            "0.4": "0.4 line (12px)",
+                                            "0.5": "0.5 line (15px)",
+                                            "0.8": "0.8 line (24px)",
+                                            "1.2": "1.2 line (36px)",
+                                            "1.5": "1.5 line (45px)",
+                                            "2.5": "2.5 line (75px)",
+                                            "3.5": "3.5 line (105px)",
+                                            "4.5": "4.5 line (135px)",
+                                            "5.5": "5.5 line (165px)",
+                                            "6.5": "6.5 line (195px)",
+                                            "7.5": "7.5 line (225px)",
+                                            "8.5": "8.5 line (255px)",
+                                            "9.5": "9.5 line (285px)"
+                                        },
+                                        "hidden": false,
+                                        "enabled": true,
+                                        "deprecated": false,
+                                        "description": "",
+                                        "path": "blockPaddingBottom"
+                                    }
+                                ],
+                                "type": "column",
+                                "size": 4
+                            }
+                        ],
+                        "type": "row"
+                    }
+                ],
+                "type": "accordion",
+                "title": "Оступы",
+                "description": null
+            },
+            {
+                "items": [
+                    {
+                        "name": "css",
+                        "type": "css-code",
+                        "default": "",
+                        "label": "",
+                        "placeholder": "&lt;--Введите CSS-код",
+                        "values": null,
+                        "hidden": false,
+                        "enabled": true,
+                        "deprecated": false,
+                        "description": "",
+                        "path": "css"
+                    },
+                    {
+                        "name": "blockCssClass",
+                        "type": "css-class",
+                        "default": "",
+                        "label": "CSS-класс блока",
+                        "placeholder": "",
+                        "values": null,
+                        "hidden": false,
+                        "enabled": true,
+                        "deprecated": false,
+                        "description": "",
+                        "path": "blockCssClass"
+                    }
+                ],
+                "type": "accordion",
+                "title": "CSS-код",
+                "description": null
+            }
+        ],
+        "type": "tab",
+        "title": "Общие",
+        "description": null
+    },
+    {
+        "items": [],
+        "type": "tab",
+        "title": "Видимость",
+        "description": null
+    }
+]
